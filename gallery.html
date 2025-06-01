@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery - Bit Club</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <span class="bit">BIT</span><span class="club">CLUB</span>
+          </a>
+        </div>
+        <div class="nav-toggle" id="navToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="games.html">Games</a></li>
+          <li><a href="rules.html">Rules</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+      <div class="banner-content">
+        <h1>Photo <span class="highlight">Gallery</span></h1>
+        <p>Capturing memorable moments from our tournaments</p>
+      </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-filter">
+      <div class="container">
+        <div class="filter-container" data-aos="fade-up">
+          <h2>Filter by <span class="highlight">Game</span></h2>
+          <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">
+              All Games
+            </button>
+            <button class="filter-btn" data-filter="cricket">Cricket</button>
+            <button class="filter-btn" data-filter="kabaddi">Kabaddi</button>
+            <button class="filter-btn" data-filter="basketball">
+              Basketball
+            </button>
+            <button class="filter-btn" data-filter="volleyball">
+              Volleyball
+            </button>
+            <button class="filter-btn" data-filter="chess">Chess</button>
+            <button class="filter-btn" data-filter="carroms">Carroms</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-grid">
+      <div class="container">
+        <div class="gallery-container" id="lightgallery">
+          <!-- Cricket Images -->
+          <!-- <div class="gallery-item" data-aos="zoom-in" data-category="cricket" data-src="https://images.pexels.com/photos/3628912/pexels-photo-3628912.jpeg">
+          <img src="gallery/cricket-won.jpeg" alt="Cricket match">
+          <div class="gallery-caption">
+            <h4>Annual Cricket Tournament</h4>
+            <p>Final match between Engineering and MCA</p>
+          </div>
+        </div>
+         -->
+          <div
+            class="gallery-item"
+            data-aos="zoom-in"
+            data-category="cricket"
+            data-src="gallery/cricket-won.jpeg"
+          >
+            <img src="gallery/cricket-won.jpeg" alt="Cricket match" />
+            <div class="gallery-caption">
+              <h4>Cricket Championship</h4>
+              <p>Winning team with trophy</p>
+            </div>
+          </div>
+
+          <!-- Kabaddi Images -->
+          <div
+            class="gallery-item"
+            data-aos="zoom-in"
+            data-category="kabaddi"
+            data-src="https://images.pexels.com/photos/4691567/pexels-photo-4691567.jpeg"
+          >
+            <img src="gallery/IMG-20250601-WA0039.jpg" alt="Kabaddi match" />
+            <div class="gallery-caption">
+              <h4>Kabaddi Tournament</h4>
+              <p>Semi-final match between rival teams</p>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-aos="zoom-in"
+            data-category="kabaddi"
+            data-src="gallery/IMG-20250601-WA0044.jpg"
+          >
+            <img src="gallery/IMG-20250601-WA0044.jpg" alt="Kabaddi team" />
+            <div class="gallery-caption">
+              <h4>Kabaddi Team</h4>
+              <p>Team huddle before the match</p>
+            </div>
+          </div>
+
+          <!-- Basketball Images -->
+          <!-- <div class="gallery-item" data-aos="zoom-in" data-category="basketball" data-src="https://images.pexels.com/photos/7280732/pexels-photo-7280732.jpeg">
+          <img src="gallery/IMG-20250601-WA0003.jpg" alt="Basketball match">
+          <div class="gallery-caption">
+            <h4>Basketball Championship</h4>
+            <p>Final match action shot</p>
+          </div>
+        </div> -->
+
+          <!-- <div class="gallery-item" data-aos="zoom-in" data-category="hockey" data-src="https://images.pexels.com/photos/6542537/pexels-photo-6542537.jpeg">
+          <img src="https://images.pexels.com/photos/6542537/pexels-photo-6542537.jpeg" alt="Hockey player">
+          <div class="gallery-caption">
+            <h4>Hockey Star Player</h4>
+            <p>MVP of the tournament in action</p>
+          </div>
+        </div> -->
+
+          <!-- Volleyball Images -->
+          <div
+            class="gallery-item"
+            data-aos="zoom-in"
+            data-category="kabaddi"
+            data-src="gallery/IMG-20250601-WA0029.jpg"
+          >
+            <img src="gallery/IMG-20250601-WA0029.jpg" alt="Kabaddi match" />
+            <div class="gallery-caption">
+              <h4>Ladies Kabaddi</h4>
+              <p>
+                Fierce determination and teamwork on display during the women's
+                kabaddi match
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-aos="zoom-in"
+            data-category="volleyball"
+            data-src="https://images.pexels.com/photos/4144234/pexels-photo-4144234.jpeg"
+          >
+            <img src="gallery/IMG-20250601-WA0041.jpg" alt="Volleyball team" />
+            <div class="gallery-caption">
+              <h4>Volleyball Champions</h4>
+              <p>Winners celebrating their victory</p>
+            </div>
+          </div>
+
+          <!-- Chess Images -->
+          <div
+            class="gallery-item"
+            data-aos="zoom-in"
+            data-category="chess"
+            data-src="gallery/IMG-20250601-WA0043.jpg"
+          >
+            <img src="gallery/IMG-20250601-WA0043.jpg" alt="Chess match" />
+            <div class="gallery-caption">
+              <h4>Chess Tournament</h4>
+              <p>Intense focus during the championship match</p>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-aos="zoom-in"
+            data-category="chess"
+            data-src="https://images.pexels.com/photos/814133/pexels-photo-814133.jpeg"
+          >
+            <img src="gallery/IMG-20250601-WA0002.jpg" alt="Chess pieces" />
+            <div class="gallery-caption">
+              <h4>Chess Finals</h4>
+              <p>The deciding game of the tournament</p>
+            </div>
+          </div>
+
+          <!-- Carroms Images -->
+          <div
+            class="gallery-item"
+            data-aos="zoom-in"
+            data-category="carroms"
+            data-src="gallery/IMG-20250601-WA0031.jpg"
+          >
+            <img src="gallery/IMG-20250601-WA0031.jpg" alt="Carroms match" />
+            <div class="gallery-caption">
+              <h4>Carroms Championship</h4>
+              <p>Precision shot during the finals</p>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-aos="zoom-in"
+            data-category="carroms"
+            data-src="gallery/IMG-20250601-WA0040.jpg"
+          >
+            <img src="gallery/IMG-20250601-WA0040.jpg" alt="Carroms player" />
+            <div class="gallery-caption">
+              <h4>Carroms Singles</h4>
+              <p>Concentration during a crucial moment</p>
+            </div>
+          </div>
+          <div
+            class="gallery-item"
+            data-aos="zoom-in"
+            data-category="speech"
+            data-src="gallery/dasusir.jpeg"
+          >
+            <img src="gallery/dasusir.jpeg" alt="Student Speech" />
+            <div class="gallery-caption">
+              <h4>Student Representative</h4>
+              <p>Sharing thoughts on team spirit and leadership</p>
+            </div>
+          </div>
+          <div
+            class="gallery-item"
+            data-aos="zoom-in"
+            data-category="speech"
+            data-src="gallery/IMG-20250601-WA0036.jpg"
+          >
+            <img
+              src="gallery/IMG-20250601-WA0036.jpg"
+              alt="Chief Guest Speech"
+            />
+            <div class="gallery-caption">
+              <h4>Inaugural Speech</h4>
+              <p>Chief Guest inspiring students at the opening ceremony</p>
+            </div>
+          </div>
+          <div
+            class="gallery-item"
+            data-aos="zoom-in"
+            data-category="speech"
+            data-src="gallery/IMG-20250601-WA0027.jpg"
+          >
+            <img src="gallery/IMG-20250601-WA0027.jpg" alt="Faculty Speech" />
+            <div class="gallery-caption">
+              <h4>HOD Motivation</h4>
+              <p>Encouraging students to balance academics and athletics</p>
+            </div>
+          </div>
+          <div
+            class="gallery-item"
+            data-aos="zoom-in"
+            data-category="speech"
+            data-src="gallery/IMG-20250601-WA0033.jpg"
+          >
+            <img src="gallery/IMG-20250601-WA0033.jpg" alt="Faculty Speech" />
+            <div class="gallery-caption">
+              <h4>Principal Motivation</h4>
+              <p>Encouraging students to balance academics and athletics</p>
+            </div>
+          </div>
+          <div class="gallery-item" data-aos="zoom-in" data-category="prize" data-src="gallery/IMG-20250601-WA0037.jpg">
+  <img src="gallery/IMG-20250601-WA0037.jpg" alt="Prize Distribution Ceremony">
+  <div class="gallery-caption">
+    <h4>Gift Distribution</h4>
+    <p>Appreciating talent and dedication — winners receive their honors</p>
+  </div>
+</div>
+<div class="gallery-item" data-aos="zoom-in" data-category="memory" data-src="gallery/IMG-20250601-WA0020.jpg">
+  <img src="gallery/IMG-20250601-WA0020.jpg" alt="Tournament Group Memory">
+  <div class="gallery-caption">
+    <h4>Tournament Memories</h4>
+    <p>United in spirit — a moment to remember from the Bit Club Sports Meet</p>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="index.html">
+              <span class="bit">BIT</span><span class="club">CLUB</span>
+            </a>
+            <p>Where College Sports Meet Excellence</p>
+          </div>
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="games.html">Games</a></li>
+              <li><a href="rules.html">Rules</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: enquiry@aknu.edu.in</p>
+            <p>Phone: +91 99486 77122</p>
+            <p>Location: Adikavi Nannaya University, Rajamahendravaram</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Bit Club. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

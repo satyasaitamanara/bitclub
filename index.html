@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bit Club - College Sports</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <span class="bit">BIT</span><span class="club">CLUB</span>
+        </a>
+      </div>
+      <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="rules.html">Rules</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+      <h1>BIT <span class="highlight">CLUB</span></h1>
+      <p class="tagline">Where College Sports Meet Excellence</p>
+      <a href="games.html" class="cta-button">Explore Games</a>
+    </div>
+  </section>
+
+  <!-- About Bit Club Section -->
+  <section class="about-section">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text" data-aos="fade-right">
+          <h2>About <span class="highlight">Bit Club</span></h2>
+          <p>Bit Club is the premier sports organization at our college, bringing together the best athletic talent across multiple disciplines. We organize tournaments, training sessions, and events that foster sportsmanship and excellence.</p>
+          <p>Founded in 2022, we've grown to become the largest sports club on campus with over 500 active members participating in our various programs.</p>
+          <a href="about.html" class="secondary-button">Learn More</a>
+        </div>
+        <div class="about-image" data-aos="fade-left">
+          <div class="image-container">
+            <img src="images/bitclub1.jpg" alt="Students playing sports">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Games Section -->
+  <section class="featured-games">
+    <div class="container">
+      <h2>Featured <span class="highlight">Games</span></h2>
+      <div class="swiper gamesSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" data-aos="zoom-in">
+            <div class="game-card">
+              <div class="game-image">
+                <img src="images/cricket1.jpg" alt="Cricket">
+              </div>
+              <div class="game-details">
+                <h3>Cricket</h3>
+                <p>11 players, 6 overs per match</p>
+                <a href="games.html" class="game-button">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-aos="zoom-in" data-aos-delay="100">
+            <div class="game-card">
+              <div class="game-image">
+                <img src="images/kabaddi.jpg" alt="Kabaddi">
+              </div>
+              <div class="game-details">
+                <h3>Kabaddi</h3>
+                <p>7 players per team, 20 min matches</p>
+                <a href="games.html" class="game-button">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-aos="zoom-in" data-aos-delay="200">
+            <div class="game-card">
+              <div class="game-image">
+                <img src="images/chess1.jpg" alt="Chess">
+              </div>
+              <div class="game-details">
+                <h3>Chess</h3>
+                <p>Individual & team formats available</p>
+                <a href="games.html" class="game-button">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content" data-aos="fade-up">
+        <h2>Ready to <span class="highlight">Join</span> the Action?</h2>
+        <p>Register for upcoming tournaments and be part of the excitement!</p>
+        <a href="games.html" class="cta-button">View All Games</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="index.html">
+            <span class="bit">BIT</span><span class="club">CLUB</span>
+          </a>
+          <p>Where College Sports Meet Excellence</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="rules.html">Rules</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: enquiry@aknu.edu.in</p>
+            <p>Phone:+91 99486 77122</p>
+            <p>Location: Adikavi Nannaya University, Rajamahendravaram</p>
+          </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Bit Club. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
